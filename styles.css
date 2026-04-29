@@ -1,0 +1,101 @@
+body,h1,p,ul,li,h2,h3{
+    margin:0;
+    padding: 0;
+}
+
+p{
+font-family: "roma", sans-serif;
+font-weight: 400;
+font-style: normal;
+margin: 10px 10px 10px 0px
+}
+.site-header{
+    background-color: #AA1155;
+    text-align: center;
+    color: #FFEE88;
+     font-family: "montecatini-pro-normale", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+.site-links{
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   padding: 30px;
+   gap: 20px;
+}
+
+
+.site-tabs{
+   background-color: #AA1155;
+    padding: 4px 12px;
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid #FFEE88;
+    color: #FFEE88;
+}
+
+.hero{
+    background-image: url(joanna-kosinska-xHDOokMbumY-unsplash.jpg);
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top:4px solid #4b0025;
+    border-bottom:4px solid #4b0025;
+    margin-bottom: 15px;
+    letter-spacing: 15px;
+}
+
+.main-content{
+    background-color: #DD1155;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    color: #4b0025;
+    border-radius: 5px;
+}
+
+body{
+    background-image: url(light-veneer.webp);
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: #48ACF0;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    color:#FFEE88;
+    border-left: 4px solid #AA1155;
+    border-radius: 5px;
+}
+
+code{
+    padding: 1px;
+    border-radius: 8px;
+    border: 2px solid #AA1155;
+    background-color: #FFEE88;
+}
+
+.h2-font{
+    font-family: "waverly-cf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.h3-font{
+    font-family: "roma", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h3{
+    margin: 10px 10px 10px 0px
+}
